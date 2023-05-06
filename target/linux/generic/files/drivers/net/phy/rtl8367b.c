@@ -614,7 +614,8 @@ static int rtl8367b_write_initvals(struct rtl8366_smi *smi,
 	int err;
 	int i;
 
-	if (rtl_device_id == 0x0020) {
+	if (rtl_device_id == 0x0020) 
+	{
 		return 0;
 	}
 
